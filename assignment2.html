@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assigment 2 || HTML Essentials</title>
+</head>
+
+<body style="margin: 10px 20%;">
+  <!-- Here it is first table where I used align attribute of <td> to set alignment of cell contents.-->
+  <table border="1px" width="100%" style="border-collapse: collapse;">
+    <tbody>
+       <tr>
+         <td>left</td>
+         <td align="center">center</td>
+         <td align="right">right</td>
+       </tr>
+       <tr>
+         <td>left</td>
+         <td align="center">center</td>
+         <td align="right">right</td>
+       </tr>
+       <tr>
+         <td>left</td>
+         <td align="center">center</td>
+         <td align="right">right</td>
+       </tr>
+    </tbody>
+  </table>
+
+  <br><br>
+
+  <!-- In this table I have used thead for giving a header of table and I have also used colspan for desired output.  -->
+  <!-- Here border attribute is deprecated other approach is to give border in style attribute. -->
+  <table border="1px" width="100%" style="border-collapse: collapse;">
+    <thead>
+      <th height="10px" colspan="6">Heading</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td height="10px" colspan="6"></td>
+      </tr>
+      <tr>
+        <td height="10px" rowspan="4"></td>
+        <td height="10px"></td>
+        <td height="10px"></td>
+        <td height="10px"></td>
+        <td height="10px"></td>
+        <td height="10px"></td>
+      </tr>
+      <tr>
+        <td height="10px"></td>
+        <td height="10px" colspan="3"></td>
+        <td height="10px"></td>
+      </tr>
+      <tr>
+        <td height="10px"></td>
+        <td height="10px" colspan="3"></td>
+        <td height="10px"></td>
+      </tr>
+      <tr>
+        <td height="10px"></td>
+        <td height="10px"></td>
+        <td height="10px"></td>
+        <td height="10px"></td>
+      </tr>
+      <tr>
+        <td height="10px" colspan="6"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br><br>
+
+  <!-- In this table I have used rowspan for desired output. -->
+  <table border="1px" width="100%" style="border-collapse: collapse;">
+    <tbody>
+      <tr>
+        <td height="10px"></td>
+        <td height="10px"></td>
+        <td height="10px"></td>
+      </tr>
+      <tr>
+        <td height="10px" rowspan="4"></td>
+        <td height="10px"></td>
+        <td height="10px" rowspan="4"></td>
+      </tr>
+      <tr>
+        <td height="10px"></td>
+      </tr>
+      <tr>
+        <td height="10px"></td>
+      </tr>
+      <tr>
+        <td height="10px"></td>
+      </tr>
+      <tr>
+        <td height="10px"></td>
+        <td height="10px"></td>
+        <td height="10px"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br><br>
+
+  <!-- In this table i have put an image inside a cell. -->
+  <table border="1px" width="100%" style="border-collapse: collapse;">
+    <tbody>
+      <tr>
+        <td height="25px" colspan="3" style="background-color: #364e12;"></td>
+      </tr>
+      <tr>
+        <td width="21%" height="25px"></td>
+        <td>
+          <!-- Image tag with alt attribute is good practice for browser screen readers. -->
+          <img src="Capture.PNG" alt="Blue frog" style="width: 80%; height: 80%; margin-left:-1px; margin-top: 5px; margin-bottom: 5px;"  />
+        </td>
+        <td width="19%" height="25px"></td>
+      </tr>
+      <tr>
+        <td height="25px" colspan="3" style="background-color: #0f2558;"></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+
+</html>
